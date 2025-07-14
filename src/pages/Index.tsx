@@ -250,7 +250,7 @@ const Index = () => {
             </p>
             <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
               Final-year Computer Science student passionate about transforming complex systems into 
-              high-performance, seamless technologies that create real-world impact.
+              seamless technologies that create real-world impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button variant="neon" className="relative z-10">
