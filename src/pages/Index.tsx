@@ -240,7 +240,7 @@ const Index = () => {
                 <div className="absolute inset-0 rounded-full border-4 border-neon-pink opacity-0 hover:opacity-100 transition-opacity duration-500 shadow-[0_0_30px_hsl(var(--neon-pink)/0.6)]"></div>
               </div>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold mb-4">
               <span className="gradient-text">Harish</span>
               <br />
               <span className="text-foreground">Radhakrishnan</span>
