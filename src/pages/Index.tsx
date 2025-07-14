@@ -230,7 +230,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="fade-in">
-            <div className="flex justify-center mb-8">
+            <div className="flex justify-center mt-12 mb-8">
               <div className="relative">
                 <img 
                   src={harishProfile} 
