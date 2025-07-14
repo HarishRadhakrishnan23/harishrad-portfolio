@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ChevronDown, Github, Linkedin, Mail, Phone, Download, ExternalLink, Send } from "lucide-react";
-import harishProfile from "@/assets/harish-profile.jpg";
+import harishProfile from "@/assets/harish-portfolio.jpg";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
