@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { ChevronDown, Github, Linkedin, Mail, Phone, Download, ExternalLink } from "lucide-react";
+import { ChevronDown, Github, Linkedin, Mail, Phone, Download, ExternalLink, Send } from "lucide-react";
+import harishProfile from "@/assets/harish-profile.jpg";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -228,6 +229,16 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="fade-in">
+            <div className="flex justify-center mb-8">
+              <div className="relative">
+                <img 
+                  src={harishProfile} 
+                  alt="Harish Radhakrishnan" 
+                  className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-neon-cyan shadow-[0_0_30px_hsl(var(--neon-cyan)/0.6)] hover:shadow-[0_0_50px_hsl(var(--neon-cyan)/0.8)] transition-all duration-500 hover:scale-105"
+                />
+                <div className="absolute inset-0 rounded-full border-4 border-neon-pink opacity-0 hover:opacity-100 transition-opacity duration-500 shadow-[0_0_30px_hsl(var(--neon-pink)/0.6)]"></div>
+              </div>
+            </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="gradient-text">Harish</span>
               <br />
@@ -241,14 +252,14 @@ const Index = () => {
               high-performance, seamless technologies that create real-world impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button className="btn-neon">
+              <Button variant="neon" className="relative z-10">
                 <Download className="w-4 h-4 mr-2" />
                 Download Resume
               </Button>
               <Button 
-                variant="outline" 
+                variant="neonPink" 
                 onClick={() => scrollToSection("projects")}
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                className="relative z-10"
               >
                 View Projects
               </Button>
@@ -275,6 +286,11 @@ const Index = () => {
                   architectures and innovative solution delivery. A proactive learner passionate about transforming complex systems into 
                   high-performance, seamless technologies that create real-world impact.
                 </p>
+                <div className="flex justify-center mt-6">
+                  <Button variant="neonGreen">
+                    Learn More
+                  </Button>
+                </div>
               </CardContent>
             </Card>
           </div>
@@ -558,7 +574,8 @@ const Index = () => {
                       className="bg-background/50 border-border focus:border-primary resize-none"
                     />
                   </div>
-                  <Button type="submit" className="btn-neon w-full">
+                  <Button type="submit" variant="neon" className="w-full">
+                    <Send className="w-4 h-4 mr-2" />
                     Send Message
                   </Button>
                 </form>
