@@ -73,11 +73,12 @@ const Index = () => {
 
   const skills = {
     "Cloud & Infrastructure": ["AWS", "Azure", "GCP", "Docker", "Jenkins"],
-    "Programming Languages": ["Python", "Java", "C++", "C", "JavaScript", "SQL"],
-    "Databases & Big Data": ["MongoDB", "MySQL", "Oracle", "Apache Spark"],
-    "Machine Learning & AI": ["TensorFlow", "PyTorch", "OpenAI", "Deep Learning", "NLP"],
+    "Programming Languages": ["Python", "Java", "C++", "C", "JavaScript", "SQL", "Spark"],
+    "Databases & Big Data": ["MongoDB", "MySQL", "Oracle", "Apache Spark", "Hadoop", "MapReduce"],
+    "Machine Learning & AI": ["TensorFlow", "PyTorch", "OpenAI", "Deep Learning", "NLP", "GAN"],
     "Development Tools": ["Git", "Linux", "Bash/Unix", "VS Code", "Jupyter"],
-    "Operating Systems": ["Ubuntu", "Windows", "MacOS"]
+    "Operating Systems": ["Ubuntu", "Windows", "MacOS"],
+    "Embedded Systems": ["Arduino Uno", "Jetson", "Raspberry Pi"]
   };
 
   const experiences = [
