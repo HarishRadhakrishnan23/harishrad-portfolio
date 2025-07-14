@@ -217,7 +217,7 @@ const Index = () => {
               <a href="https://github.com/HarishRadhakrishnan23" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5 hover:text-primary transition-colors" />
               </a>
-              <a href="https://linkedin.com/in/harish-radhakrishnan" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/harish-radhakrishnan-207523255/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5 hover:text-primary transition-colors" />
               </a>
             </div>
@@ -539,12 +539,12 @@ const Index = () => {
                 <div className="flex items-center space-x-3">
                   <Linkedin className="w-5 h-5 text-primary" />
                   <a 
-                    href="https://linkedin.com/in/harish-radhakrishnan" 
+                    href="https://www.linkedin.com/in/harish-radhakrishnan-207523255/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
                   >
-                    linkedin.com/in/harish-radhakrishnan
+                    linkedin.com/in/harish-radhakrishnan-207523255
                   </a>
                 </div>
               </div>
