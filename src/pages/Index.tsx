@@ -289,11 +289,6 @@ const Index = () => {
                   architectures and innovative solution delivery. A proactive learner passionate about transforming complex systems into 
                   high-performance, seamless technologies that create real-world impact.
                 </p>
-                <div className="flex justify-center mt-6">
-                  <Button variant="neonGreen">
-                    Learn More
-                  </Button>
-                </div>
               </CardContent>
             </Card>
           </div>
