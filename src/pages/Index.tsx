@@ -253,10 +253,12 @@ const Index = () => {
               seamless technologies that create real-world impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button variant="neon" className="relative z-10">
-                <Download className="w-4 h-4 mr-2" />
-                Download Resume
-              </Button>
+              <a href="/Harish_Resume.pdf" download className="relative z-10">
+                <Button variant="neon">
+                  <Download className="w-4 h-4 mr-2" />
+                  Download Resume
+                </Button>
+              </a>
               <Button 
                 variant="neonPink" 
                 onClick={() => scrollToSection("projects")}
